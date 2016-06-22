@@ -8,6 +8,7 @@ namespace MVCPodstawy.Controllers
 {
     public class HomeController : Controller
     {
+        //Komentarze
         public ActionResult Index()
         {
             var lista = new List<Alb>
